@@ -1,0 +1,62 @@
+para declarar uma variavel, basta usar o operador de atribuição = que atribui um valor a uma variável
+EX:
+# Declarando uma variável com um valor inteiro
+idade = 30
+
+# Declarando uma variável com um valor de texto (string)
+nome = "João"
+
+# Declarando uma variável com um valor de ponto flutuante (float)   
+preco = 19.99
+#####################################################################################################################################
+#o que e o float é um tipo de dado que representa números com casas decimais, também conhecidos como números de ponto flutuante  
+
+Representação: Os floats são armazenados em um formato de ponto flutuante, que usa uma combinação de mantissa, expoente e sinal para representar números. 
+Casas decimais: Permitem representar valores como 3.14, 2.718, ou 0.0001. 
+Precisão: A representação de ponto flutuante pode ter limitações de precisão, o que pode levar a pequenas imprecisões em alguns cálculos. 
+Conversão: A função float() converte strings ou inteiros em valores de ponto flutuante. 
+EX:
+ # Criação de um float diretamente
+    numero_float = 3.14
+
+  # Conversão de string para float
+    numero_float_string = float("3.14")
+
+  # Conversão de inteiro para float
+    numero_float_int = float(3)
+
+    print(numero_float)
+    print(numero_float_string)
+    print(numero_float_int)
+#####################################################################################################################################
+o que e uma string e uma cadeia de caracters é uma sequência de caracteres usada para representar texto
+
+Representação de Texto:
+Strings são usadas para representar palavras, frases, números, símbolos, espaços em branco, etc. 
+Criação:
+As strings são criadas usando aspas simples (') ou aspas duplas (") ou triplas aspas (''' ou """) para definir o texto. 
+Imutabilidade:
+Strings em Python são imutáveis, o que significa que não podem ser alteradas diretamente após serem criadas. Se você quiser modificar uma string, precisa criar uma nova string com as mudanças desejadas. 
+Operações:
+As strings podem ser concatenadas (juntas) usando o operador + ou o operador * (para repetição). 
+Funções e Métodos:
+Python oferece várias funções e métodos para trabalhar com strings, como len(), upper(), lower(), replace(), split(), join(), entre outros. 
+EX:
+# Criação de strings
+texto1 = "Olá, mundo!"
+texto2 = 'Esta é uma string em aspas simples.'
+texto3 = """
+Esta é uma string
+em triplas aspas.
+"""
+
+# Concatenação
+frase = texto1 + " " + texto2
+
+# Método upper()
+maiuscula = texto1.upper()
+
+# Método replace()
+substituicao = texto1.replace("mundo", "Python")
+#####################################################################################################################################
+
