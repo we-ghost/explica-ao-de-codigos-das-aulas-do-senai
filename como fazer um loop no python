@@ -1,0 +1,31 @@
+Em Python, pode-se criar loops utilizando as instruções for e while. O loop for é utilizado para iterar sobre uma sequência (como listas, tuplas, strings) ou qualquer objeto iterável. Já o loop while é utilizado para executar um bloco de código enquanto uma condição for verdadeira
+EX:
+# Itera sobre uma lista
+nomes = ['Ana', 'Bruno', 'Carlos']
+for nome in nomes:
+    print(f"Olá, {nome}!")
+
+# Itera sobre uma string
+frase = "Olá, mundo!"
+for char in frase:
+    print(char)
+
+# Utilizando a função range() para iterar sobre um intervalo de números
+for i in range(5):
+    print(i)
+loop usando o while 
+# Executa o código enquanto a condição for verdadeira
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+
+# Loop infinito (precisa ser interrompido manualmente)
+while True:
+    print("Este loop é infinito")
+    # Para interromper, pode usar a instrução 'break'
+    # break
+Indentação: Em Python, a indentação é crucial para definir o bloco de código que faz parte do loop 
+break: Interrompe a execução do loop
+continue: Salta para a próxima iteração do loop
+else (com loops): Pode ser usado com loops for e while para executar código se o loop terminar normalmente (sem ser interrompido por break)
