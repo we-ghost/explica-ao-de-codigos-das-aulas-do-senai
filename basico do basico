@@ -65,6 +65,36 @@ A função print() imprime a mensagem especificada na tela ou em outro dispositi
 A mensagem pode ser uma string ou qualquer outro objeto; o objeto será convertido em uma string antes de ser gravado na tela.
 EX:
 print("Hello", "how are you?")
+resultado ira aparecer em sua tela::
+"Hello", "how are you?
+#####################################################################################################################################
+para que serve o f antes da string
+Em Python, f antes de uma string (literal de string formatada) permite que você inclua variáveis e expressões diretamente no texto da string, tornando a formatação mais fácil e legível. 
+Como funciona:
+Introdução: A letra f (ou F) antes de uma string indica que é uma literal de string formatada.
+Chaves e expressões: Dentro da string, você pode colocar expressões entre chaves {}.
+Avaliação: As expressões entre chaves são avaliadas em tempo de execução e seus valores são inseridos na string final. 
 
-ira aparecer em sua tela: "Hello", "how are you?
+nome = "João"
+idade = 30
+print(f"Olá, meu nome é {nome} e tenho {idade} anos.")  
+resultado:
+Olá, meu nome é João e tenho 30 anos.
+#####################################################################################################################################
+para que serve o \n
+Em Python, \n representa a sequência de escape para uma nova linha (line feed). Serve para inserir um ponto de quebra de linha no texto, fazendo com que o cursor se mova para a próxima linha. 
+Explicação:
+Caractere de Escape:
+A barra invertida (`\`) é um caractere de escape que indica que o caractere seguinte tem um significado especial, em vez de ser interpretado literalmente. 
+Nova Linha:
+\n representa a nova linha (line feed), que é um caractere que indica a quebra de linha. 
+Utilização:
+Ao incluir \n numa string, essa string será impressa no terminal ou escrita num ficheiro com uma nova linha inserida nesse ponto. 
+EX:
+    texto = "Primeira linha\nSegunda linha"
+    print(texto)
+    resultado:
+    Primeira linha
+    Segunda linha
+Em resumo, \n é uma ferramenta para formatar texto, criando linhas separadas quando necessário, especialmente útil em print statements e manipulação de ficheiros
 #####################################################################################################################################
