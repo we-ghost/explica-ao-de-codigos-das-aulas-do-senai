@@ -59,4 +59,12 @@ maiuscula = texto1.upper()
 # Método replace()
 substituicao = texto1.replace("mundo", "Python")
 #####################################################################################################################################
+print()
+A função print() imprime a mensagem especificada na tela ou em outro dispositivo de saída padrão.
 
+A mensagem pode ser uma string ou qualquer outro objeto; o objeto será convertido em uma string antes de ser gravado na tela.
+EX:
+print("Hello", "how are you?")
+
+ira aparecer em sua tela: "Hello", "how are you?
+#####################################################################################################################################
